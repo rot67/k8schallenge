@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hello-k8s
-          image: rotimibello/k8s-challenge:v1
+          image: rotimibello/k8schallenge:v1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 4000
